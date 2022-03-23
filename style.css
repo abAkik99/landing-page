@@ -52,7 +52,7 @@ font-size: 48px;
 
 .sign-up{
 background-color: #3882f6;
-color: white;
+color: #f9faf8;
 font-size: 20px;
 width: 25%;
 height: 40px;
@@ -113,13 +113,57 @@ font-family: fantasy;
 }
 
 .third-section p{
-    width: 900px;
+width: 900px;
 }
-
 
 figcaption{
    display: flex; 
    justify-content: flex-end;
    font-weight: bold;
+}
+
+/* Fourth section */
+
+.fourth-section{
+  display: flex;  
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+
+.containfour{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  background-color: #1f2937;
+  border-radius: 10px;
+}
+
+.call-action{
+width: 70%;
+color: #f9faf8;
+}
+
+.sign-up2{
+background-color: #3882f6;
+color: #f9faf8;
+font-size: 15px;
+height: 40px;
+margin-left: 20px;
+border-radius: 5px;
+border-style: none;
+}
+
+/* Footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding: 40px;
+    color: #f9faf8;
 }
 
