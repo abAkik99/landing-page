@@ -102,5 +102,24 @@ height: 200px;
 
 /* Third section */
 
+.third-section{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #e5e7eb;
+font-size: 36px;
+padding: 40px;
+font-family: fantasy;
+}
 
+.third-section p{
+    width: 900px;
+}
+
+
+figcaption{
+   display: flex; 
+   justify-content: flex-end;
+   font-weight: bold;
+}
 
